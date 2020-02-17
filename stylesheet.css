@@ -1,17 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 40px;
+    padding: 10px;
 }
 #search-bar {
     width: 30vw;
     height: 30px;
 }
 
+#wrapper {
+    display: flex;
+}
+
+/* Video */
 #video {
-    width: 80vw;
-    height: 700px;
-    margin: auto;
+    width: 90vw;
+    height: 500px;
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
 
 #video-info {
@@ -39,4 +56,20 @@
 
 #uploader-logo {
     border-radius: 50%;
+}
+
+/* Sidebar */
+aside {
+    margin: 20px;
+    width: 40vw;
+}
+
+.recommended-video {
+    display: flex;
+    margin: 20px;
+    height: 160px;
+}
+
+.recommended-video-description {
+    padding: 10px;
 }

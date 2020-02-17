@@ -1,44 +1,78 @@
 <!DOCTYPE html>
 
-<head>
-    <title>Youtube</title>
-    <link rel="stylesheet" href="./stylesheet.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Youtube</title>
+        <link rel="stylesheet" href="./stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-<body>
-    <nav id="navbar">
-        <img width="100" height="60" alt="youtube logo" src="https://www.multichannel.com/.image/t_share/MTU0NDU4OTMzMTEzMTM2Njkx/youtube-logo-newjpg.jpg">
-        <div id="search">
-            <input id="search-bar" type="text" placeholder="Search">
-            <button>
-                <img width="20" height="20" alt="search" src="https://f0.pngfuel.com/png/928/549/blue-magnifying-glass-icon-illustration-png-clip-art.png">
-            </button>
-        </div>
-        <img width="50" height="40" alt="upload" src="https://www.logolynx.com/images/logolynx/2a/2a71ec307740510ce1e7300904131154.png">
-        <img width="200" height="100" alt="signin" src="https://user-images.githubusercontent.com/128755/38843922-3e1150ac-41bf-11e8-91c4-29f2a532eb06.png"> 
-    </nav>
-    <section id="video"> 
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f9ip1iSAptQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
-        <article id="video-info">
-            <h1>What is Microverse?</h1>
-            <p>6,599 views • Sep 19, 2019</p>
-            <img width="50" height="50" src="https://www.creativefabrica.com/wp-content/uploads/2019/05/Like-Icon-by-demolabid-580x386.jpg" alt="thumbs-up">
-            <img width="20" height="20" src="https://image.flaticon.com/icons/svg/126/126504.svg" alt="thumbs-down">
-            <button>
-                <img width="20" height="20" alt="share-button" src="https://i0.wp.com/www.mtctutorials.com/wp-content/uploads/2019/04/Share-button-png-by-mtc-tutorials.png?w=419&ssl=1">
-                <span>Share</span>
-            </button>
-        </article>
-        <article id="uploader-info">
-            <div>
-                <img id="uploader-logo" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo" alt="microverse-icon">
-                <h1 id="uploader">Microverse</h1>
+    <body>
+        <nav id="navbar">
+            <img width="100" height="60" alt="youtube logo" src="https://www.multichannel.com/.image/t_share/MTU0NDU4OTMzMTEzMTM2Njkx/youtube-logo-newjpg.jpg">
+            <div id="search">
+                <input id="search-bar" type="text" placeholder="Search">
+                <button>
+                    <img width="20" height="20" alt="search" src="https://f0.pngfuel.com/png/928/549/blue-magnifying-glass-icon-illustration-png-clip-art.png">
+                </button>
             </div>
-            <button id="subscribe-button">
-                Subscribe
-            </button>
-        </article>
-        <p>Microverse is a global, distributed school for software developers that doesn't charge students anything until they get hired.</p>
-    </section>
+            <img width="50" height="40" alt="upload" src="https://www.logolynx.com/images/logolynx/2a/2a71ec307740510ce1e7300904131154.png">
+            <img width="200" height="100" alt="signin" src="https://user-images.githubusercontent.com/128755/38843922-3e1150ac-41bf-11e8-91c4-29f2a532eb06.png"> 
+        </nav>
 
-</body>
+        <div id="wrapper">
+            <div id="video">
+                <iframe src="https://www.youtube.com/embed/f9ip1iSAptQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                <article id="video-info">
+                    <h2>What is Microverse?</h2>
+                    <p>6,599 views • Sep 19, 2019</p>
+                    <img width="50" height="50" src="https://www.creativefabrica.com/wp-content/uploads/2019/05/Like-Icon-by-demolabid-580x386.jpg" alt="thumbs-up">
+                    <img width="20" height="20" src="https://image.flaticon.com/icons/svg/126/126504.svg" alt="thumbs-down">
+                    <button>
+                        <img width="20" height="20" alt="share-button" src="https://i0.wp.com/www.mtctutorials.com/wp-content/uploads/2019/04/Share-button-png-by-mtc-tutorials.png?w=419&ssl=1">
+                        <span>Share</span>
+                    </button>
+                </article>
+                <hr>
+                <article id="uploader-info">
+                    <div>
+                        <img id="uploader-logo" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo" alt="microverse-icon">
+                        <h2 id="uploader">Microverse</h2>
+                    </div>
+                    <button id="subscribe-button">
+                        Subscribe
+                    </button>
+                </article>
+                <p>Microverse is a global, distributed school for software developers that doesn't charge students anything until they get hired.</p>
+                <hr>
+            </div>
+
+            <aside id="sidebar">
+                <h2>Recommended videos</h2>
+                <div class="recommended-video">
+                    <img src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="How to get a job">
+                    <div class="recommended-video-description">
+                        <p>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</p>
+                        <p>1000 views</p>
+                    </div>
+                </div>
+                <div class="recommended-video">
+                    <img src="https://archive.ph/Bss88/94ce5195858269ff0184aa735ee160f562dafac4" alt="Visual Basic">
+                    <div class="recommended-video-description">
+                        <p>Programming in Visual Basic .Net How to Connect Access Database to</p>
+                        <p>1000 views</p>
+                    </div>
+                </div>
+                <div class="recommended-video">
+                    <img src="https://archive.ph/Bss88/42fcf704757c206b21126f9ef6c413eff28de822" alt="Rest API">
+                    <div class="recommended-video-description">
+                        <p>REST API concepts and examples</p>
+                        <p>1000 views</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </body>
+</html>
