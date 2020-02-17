@@ -1,0 +1,9 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search-bar {
+    width: 30vw;
+    height: 30px;
+}
