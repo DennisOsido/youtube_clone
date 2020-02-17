@@ -7,3 +7,36 @@
     width: 30vw;
     height: 30px;
 }
+
+#video {
+    width: 80vw;
+    height: 700px;
+    margin: auto;
+}
+
+#video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#uploader-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#subscribe-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+#uploader {
+    display: inline-block;
+    padding: 20px;
+}
+
+#uploader-logo {
+    border-radius: 50%;
+}
