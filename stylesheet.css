@@ -39,6 +39,7 @@ body {
     height: 36px;
     background-color: snow;
     border: 1px solid gray;
+    cursor: pointer;
 }
 
 #search {
@@ -134,14 +135,23 @@ aside {
     width: 40vw;
 }
 
+#autoplay-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 12px;
+}
+
 .recommended-video {
     display: flex;
-    margin: 20px;
-    height: 160px;
+    margin: 10px;
+    align-items: center;
 }
 
 .recommended-video-description {
     padding: 10px;
+    font-size: 12px;
 }
 
 .fa-toggle-on {
