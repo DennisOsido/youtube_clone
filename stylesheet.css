@@ -143,3 +143,13 @@ aside {
 .recommended-video-description {
     padding: 10px;
 }
+
+.fa-toggle-on {
+    color: gray;
+}
+
+#sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
