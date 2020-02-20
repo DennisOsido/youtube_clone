@@ -2,6 +2,7 @@
 - 1st project under the HTML/CSS curriculum in Microverse
 - Our Ambitious attempt at cloning Youtube.
 
+![](images/youtube_clone.png)
 
 # What it does
 It is a Youtube clone written in pure HTML and CSS. It has a navigation bar, an embedded video section and a sidebar section.  
