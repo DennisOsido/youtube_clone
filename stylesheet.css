@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 14px;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+#nav-logo {
+    display: flex;
+    width: 10%;
+}
+
+.fa-youtube {
+    color: red;
+    margin-left: 40px;
+    transform: scale(1.8, 1);
+}
+
+#search {
+    display: flex;
+    width: 35%;
+    padding-left: 10%;
+}
+
+#search-bar {
+    width: 90%;
+    height: 30px;
+}
+
+#search-button {
+    width: 50px;
+    height: 36px;
+    background-color: snow;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#nav-link {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-upload, .fa-th, .fa-ellipsis-v {
+    color: gray;
+}
+
+#sign-in {
+    border: 2px solid dodgerblue;
+    padding: 5px;
+    color: dodgerblue;
+}
+
+/* Video */
+#wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+#video {
+    width: 70vw;
+    height: 70vh;
+    margin: 20px;
+    padding-left: 3vw;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#video-title {
+    font-size: 20px;
+}
+
+#video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1em;
+}
+
+#video-interact {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-plus, .fa-ellipsis-h {
+    color: rgb(105, 105, 105);
+}
+
+#uploader-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#uploader {
+    display: inline-block;
+    font-size: 15px;
+}
+
+#uploader-logo {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#uploader-div {
+    display: flex;
+    align-items: center;
+}
+
+#subscribe-button {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+}
+/* Sidebar */
+aside {
+    width: 25vw;
+    padding-right: 5vw;
+
+}
+
+#sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#autoplay-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 12px;
+}
+
+.fa-toggle-on {
+    color: gray;
+}
+
+.recommended-video {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommended-video-description {
+    padding: 10px;
+    font-size: 12px;
+    width: 70%;
+}

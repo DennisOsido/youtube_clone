@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Youtube</title>
+        <link rel="stylesheet" href="./stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <nav id="navbar">
+            
+            <div id="nav-logo">
+                <a href="#"><i class="fa fa-2x fa-bars"></i></a>
+                <a href="#"><i class="fa fa-2x fa-youtube"></i></a>
+            </div>
+            
+            <div id="search">
+                <input id="search-bar" type="text" placeholder="Search">
+                <a href="#">
+                    <button id="search-button">
+                        <i class="fa fa-1x fa-search"></i>
+                    </button>
+                </a>
+            </div>
+
+            <div id="nav-link">
+                <a href="#"><i class="fa fa-upload"></i></a>
+                <a href="#"><i class="fa fa-1x fa-th"></i></a>
+                <a href="#"><i class="fa fa-1x fa-ellipsis-v"></i></a>
+               <div id="sign-in">
+                <a href="#"><i class="fa fa-1x fa-user"> SIGN IN</i></a>
+               </div>
+                
+            </div>
+            
+        </nav>
+
+        <div id="wrapper">
+            <div id="video">
+                <iframe src="https://www.youtube.com/embed/f9ip1iSAptQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                <h2 id="video-title">What is Microverse?</h2>
+                <article id="video-info">
+                    <p>6,599 views • Sep 19, 2019</p>
+                    <div id="video-interact">
+                        <span><i class="fa fa-1x fa-thumbs-up"></i> 2k</span>
+                        <span><i class="fa fa-1x fa-thumbs-down"></i> 80</span>
+                        <span><i class="fa fa-1x fa-share"></i> Share</span>
+                        <span><i class="fa fa-1x fa-plus"></i> Save</span>
+                        <span><i class="fa fa-1x fa-ellipsis-h"></i></span>
+                    </div>
+                </article>
+                <hr>
+                <article id="uploader-info">
+                    <div id="uploader-div">
+                        <img id="uploader-logo" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo" alt="microverse-icon">
+                        <h2 id="uploader">Microverse</h2>
+                    </div>
+                    <button id="subscribe-button">
+                        Subscribe
+                    </button>
+                </article>
+                <p>Microverse is a global, distributed school for software developers that doesn't charge students anything until they get hired.</p>
+                <hr>
+            </div>
+
+            <aside id="sidebar">
+                <div id="sidebar-header">
+                    <h4>Up next</h4>
+                    <span id="autoplay-button">AUTOPLAY <i class="fa fa-2x fa-toggle-on"></i></span>
+                </div>
+                    
+                
+                <div class="recommended-video">
+                    <img width="auto" height="90" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="How to get a job">
+                    <div class="recommended-video-description">
+                        <p><b>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'</b></p>
+                        <p>1k views</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="recommended-video">
+                    <img width="auto" height="90" src="https://archive.ph/Bss88/94ce5195858269ff0184aa735ee160f562dafac4" alt="Visual Basic">
+                    <div class="recommended-video-description">
+                        <p><b>Programming in Visual Basic .Net How to Connect Access Database to</b></b>
+                        <p>1k views</p>
+                    </div>
+                </div>
+                <div class="recommended-video">
+                    <img width="auto" height="90" src="https://archive.ph/Bss88/42fcf704757c206b21126f9ef6c413eff28de822" alt="Rest API">
+                    <div class="recommended-video-description">
+                        <p><b>REST API concepts and examples</b></p>
+                        <p>1k views</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </body>
+</html>
